@@ -1,5 +1,6 @@
-const core = require('@actions/core');
+
 const asana = require('asana');
+const core = require('@actions/core');
 
 console.log("asana-secret: " + core.getInput('asana-secret'));
 const ASANA_SECRET = core.getInput('asana-secret')
