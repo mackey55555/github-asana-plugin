@@ -2,9 +2,9 @@
 const asana = require('asana');
 const core = require('@actions/core');
 
-console.log("asana-secret: " + core.getInput('asana-secret'));
-const ASANA_SECRET = core.getInput('asana-secret')
-
+// console.log("asana-secret: " + core.getInput('asana-secret'));
+// const ASANA_SECRET = core.getInput('asana-secret')
+const ASANA_SECRET = 000000000 
 const client = asana.Client.create().useAccessToken(ASANA_SECRET);
 client.users.me().then(function(me) {
   console.log(me);
