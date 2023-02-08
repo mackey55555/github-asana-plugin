@@ -1,0 +1,12 @@
+{
+  "name": "github-asana-plugin",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:mackey55555/github-asana-plugin.git",
+  "author": "a.makihara <a.makihara@auris.jp>",
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "^1.10.0",
+    "asana": "^1.0.1"
+  }
+}

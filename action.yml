@@ -1,4 +1,9 @@
-name: "Hello World"
+name: 'Asana github Plugin'
+description: 'Asana github Plugin'
+inputs:
+  asana-secret:
+    description: 'Asana Public Access Token'
+    required: true
 runs:
   using: "node12"
   main: "index.js"
